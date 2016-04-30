@@ -1,0 +1,8 @@
+jpa\JpaTest.class
+fr\istic\sir\rest\SampleWebService.class
+domain\Residence.class
+domain\Device.class
+domain\Personne.class
+servlet\MyServlet.class
+domain\Chauffage.class
+domain\EquipElectronic.class

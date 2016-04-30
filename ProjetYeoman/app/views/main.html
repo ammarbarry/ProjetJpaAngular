@@ -1,0 +1,35 @@
+<div class="jumbotron" ng-controller="MainCtrl">
+  <h1>'Allo, 'Allo!</h1>
+  <!-- <form action="/ma-page-de-traitement" method="post"> -->
+    <div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" ng-model="user.name"/>
+    </div>
+    <div>
+        <label for="prenom">prenom :</label>
+        <input type="text" id="prenom" ng-model="user.lastname"/>
+    </div>
+    
+    <div class="button">
+        <button type="submit" ng-click="send(user)">Envoyer votre message</button>
+    </div>
+<!--</form> -->
+<table class="table table-bordered table-condensed table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Prenom</th>
+        <th>Nom</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat = "pers in persons">
+        <td>{{pers.id}}</td>
+        <td>{{pers.lastname}}</td>
+        <td>{{pers.name}}</td>
+        <td>{{pers.mail}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
