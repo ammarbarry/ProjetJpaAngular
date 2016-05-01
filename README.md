@@ -12,8 +12,11 @@ Les travaux réalisés sur JPA sont les suivants :
 - Compréhension du problème du n+1 select.
 
 Pour atteindre le but du TP qui est de construire à partir de nos compétences en AngularJS une interface Web pour votre application développée en Java côté serveur.
+
 Tout d'abord, nous avons installés  grunt, grunt-cli, yo, …. puis initialiés le projet tout en choisissant le générateur angular et repondant aux questions lors de la génération.
+
 Après la génération, nous avons saisis les commandes suivantes : npm i, bower i, grunt, grunt serve. Un navigateur est ouvert avec le projet à l’intérieur. Grunt ouvre un serveur web sur le port 9000.
+
 Nous avons aussi importés ce projet dans eclipse et avons créés une interface utilisateur qui utilise un service de lecture (GET) et un service d’écriture (POST) du projet JPA + JaxRS qui se réalisent sur la même page. 
 
 ## MongoDB
